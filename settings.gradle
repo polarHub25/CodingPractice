@@ -1,3 +1,5 @@
 rootProject.name = 'CodingPractice'
 include 'programmers-lv1-absolutesAdd'
+include 'programmers-lv1-addArrayItem'
+include 'programmers'
 
