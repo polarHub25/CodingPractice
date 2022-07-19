@@ -1,6 +1,9 @@
 package org.hm.lv1;
 
 import java.net.InterfaceAddress;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Stream;
 
 public class Main {
@@ -19,8 +22,14 @@ public class Main {
 
         //int answer = solution(626331);
 
+//        int[] param = {4,3,2,10};
+//        //int[] param = {10};
+//        int[] answer = solution(param);
+
+
 
     }
+
 
 
 
