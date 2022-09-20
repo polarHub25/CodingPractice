@@ -35,7 +35,7 @@ public class GcdLcmSolution {
     public static int gcdMake(int big, int small){
         int r0 = 0;
         int r1 = 0;
-        //int gcdResult = 0;
+
         r0 = big%small;
 
         while(true){

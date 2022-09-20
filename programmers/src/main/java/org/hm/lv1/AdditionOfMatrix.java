@@ -2,7 +2,6 @@ package org.hm.lv1;
 
 import java.util.Arrays;
 
-//행렬의 덧셈
 public class AdditionOfMatrix {
 
     public int[][] solution(int[][] arr1, int[][] arr2) {

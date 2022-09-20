@@ -30,6 +30,11 @@ public class Main {
         //int[] answer = solution(135,25);
 //        int[] answer = solution(18,45);
 //        System.out.println(answer[0] + " , "+ answer[1]);
+/*
+        SumOfDivisor sol = new SumOfDivisor();
+        int answer = sol.solution(12);
+
+        System.out.println(answer);*/
 
     }
 
