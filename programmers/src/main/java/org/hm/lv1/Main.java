@@ -36,6 +36,9 @@ public class Main {
 
         System.out.println(answer);*/
 
+        AddDigit sol = new AddDigit();
+        sol.solution(234);
+
     }
 
 
