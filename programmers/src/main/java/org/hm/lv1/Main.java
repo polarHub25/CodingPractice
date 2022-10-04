@@ -36,8 +36,11 @@ public class Main {
 
         System.out.println(answer);*/
 
-        AddDigit sol = new AddDigit();
-        sol.solution(234);
+/*        AddDigit sol = new AddDigit();
+        sol.solution(234);*/
+
+        DigitFlip sol = new DigitFlip();
+        sol.solution(12345);
 
     }
 
