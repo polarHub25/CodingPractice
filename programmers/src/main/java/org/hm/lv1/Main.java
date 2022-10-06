@@ -39,8 +39,11 @@ public class Main {
 /*        AddDigit sol = new AddDigit();
         sol.solution(234);*/
 
-        DigitFlip sol = new DigitFlip();
-        sol.solution(12345);
+//        DigitFlip sol = new DigitFlip();
+//        sol.solution(12345);
+
+        CountOfString sol = new CountOfString();
+        sol.solution("pPOOOOyY");
 
     }
 
