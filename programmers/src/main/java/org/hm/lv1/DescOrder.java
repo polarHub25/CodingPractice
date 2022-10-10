@@ -7,10 +7,14 @@ package org.hm.lv1;
 * 예를들어 n이 118372면 873211을 리턴하면 됩니다.
  * */
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class DescOrder {
     public long solution(long n) {
+
         long answer = 0;
-        int length = (int)Math.log10(n) + 1;
+      /*  int length = (int)Math.log10(n) + 1;
         String invertN = String.valueOf(n);
         // 각 한자리씩 배열에 넣기
         String arrStr[] = new String[length];
@@ -30,7 +34,14 @@ public class DescOrder {
             }
         }
 
-        answer = Long.parseLong(String.join("",arrStr));
+        answer = Long.parseLong(String.join("",arrStr));*/
+
+        //sort() , split() , Collections  사용해서 코드 작성
+        String[] arrN = String.valueOf(n).split("");
+
+        Arrays.sort(arrN , Collections.reverseOrder());
+
+        answer = Long.parseLong(String.join("",arrN));
 
         return answer;
     }
