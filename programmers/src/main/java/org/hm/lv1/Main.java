@@ -42,8 +42,11 @@ public class Main {
 //        DigitFlip sol = new DigitFlip();
 //        sol.solution(12345);
 
-        CountOfString sol = new CountOfString();
-        sol.solution("pPOOOOyY");
+//        CountOfString sol = new CountOfString();
+//        sol.solution("pPOOOOyY");
+
+        DescOrder sol = new DescOrder();
+        sol.solution(118372);
 
     }
 
