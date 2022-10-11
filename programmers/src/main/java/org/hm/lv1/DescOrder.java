@@ -23,7 +23,7 @@ public class DescOrder {
         for(int i = 0; i< length; i++){
             arrStr[i] = invertN.substring(i, i+1);
         }
-
+        //선택정렬
         for(int j=0; j<length;j++){
             for(int z=j+1; z<length;z++){
                 if(Integer.parseInt(arrStr[j]) < Integer.parseInt(arrStr[z])){

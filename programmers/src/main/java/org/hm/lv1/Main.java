@@ -45,8 +45,15 @@ public class Main {
 //        CountOfString sol = new CountOfString();
 //        sol.solution("pPOOOOyY");
 
-        DescOrder sol = new DescOrder();
-        sol.solution(118372);
+//        DescOrder sol = new DescOrder();
+//        sol.solution(118372);
+
+        ReplaceStrToInt sol = new ReplaceStrToInt();
+        int answer = sol.solution("1234");
+
+        int answer2 = sol.solution("-1234");
+
+
 
     }
 
