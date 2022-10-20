@@ -53,8 +53,12 @@ public class Main {
 //
 //        int answer2 = sol.solution("-1234");
 
-        FindRemainder sol = new FindRemainder();
-        sol.solution(10);
+//        FindRemainder sol = new FindRemainder();
+//        sol.solution(10);
+
+        BetweenSum sol = new BetweenSum();
+        sol.solution(3,5);
+
 
 
     }
