@@ -56,9 +56,16 @@ public class Main {
 //        FindRemainder sol = new FindRemainder();
 //        sol.solution(10);
 
-        BetweenSum sol = new BetweenSum();
-        sol.solution(3,5);
+//        BetweenSum sol = new BetweenSum();
+//        sol.solution(3,5);
 
+         int[] param = {5,9,7,10};
+        int[] param2 = {3,2,6};
+         int[] answer = {};
+         DivisorZero sol = new DivisorZero();
+         answer = sol.solution(param, 5);
+
+        sol.solution(param2, 10);
 
 
     }
