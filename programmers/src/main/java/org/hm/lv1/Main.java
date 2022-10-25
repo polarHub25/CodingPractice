@@ -59,13 +59,17 @@ public class Main {
 //        BetweenSum sol = new BetweenSum();
 //        sol.solution(3,5);
 
-         int[] param = {5,9,7,10};
-        int[] param2 = {3,2,6};
-         int[] answer = {};
-         DivisorZero sol = new DivisorZero();
-         answer = sol.solution(param, 5);
+//         int[] param = {5,9,7,10};
+//        int[] param2 = {3,2,6};
+//         int[] answer = {};
+//         DivisorZero sol = new DivisorZero();
+//         answer = sol.solution(param, 5);
+//
+//        sol.solution(param2, 10);
 
-        sol.solution(param2, 10);
+        NoneNumAdd sol = new NoneNumAdd();
+        int[] param = {1,2,3,4,6,7,8,0};
+        int answer = sol.solution(param);
 
 
     }
