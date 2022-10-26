@@ -67,11 +67,13 @@ public class Main {
 //
 //        sol.solution(param2, 10);
 
-        NoneNumAdd sol = new NoneNumAdd();
-        int[] param = {1,2,3,4,6,7,8,0};
-        int answer = sol.solution(param);
+//        NoneNumAdd sol = new NoneNumAdd();
+//        int[] param = {1,2,3,4,6,7,8,0};
+//        int answer = sol.solution(param);
 
-
+        GetCenterStr sol = new GetCenterStr();
+        sol.solution("abcdef");
+        //sol.solution("qwer");
     }
 
 
