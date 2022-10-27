@@ -71,9 +71,14 @@ public class Main {
 //        int[] param = {1,2,3,4,6,7,8,0};
 //        int answer = sol.solution(param);
 
-        GetCenterStr sol = new GetCenterStr();
-        sol.solution("abcdef");
-        //sol.solution("qwer");
+//        GetCenterStr sol = new GetCenterStr();
+//        sol.solution("abcdef");
+//        //sol.solution("qwer");
+
+        PatternReturn sol = new PatternReturn();
+        String answer = sol.solution(6);
+        System.out.println("test======================="+answer);
+
     }
 
 
