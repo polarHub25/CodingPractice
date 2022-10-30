@@ -78,12 +78,15 @@ public class Main {
 //        PatternReturn sol = new PatternReturn();
 //        String answer = sol.solution(6);
 //        System.out.println("test======================="+answer);
+//
+//        DotProduct sol = new DotProduct();
+//        int[] a = {1,2,3,4};
+//        int[] b = {-3,-1,0,2};
+//
+//        sol.solution(a,b);
 
-        DotProduct sol = new DotProduct();
-        int[] a = {1,2,3,4};
-        int[] b = {-3,-1,0,2};
-
-        sol.solution(a,b);
+        StringOrder sol = new StringOrder();
+        sol.solution("Zbcdefg");
 
 
 
