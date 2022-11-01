@@ -9,8 +9,8 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args)
     {
-        AssortStr sol = new AssortStr();
-        sol.solution("a1234");
+        AddDivisor sol = new AddDivisor();
+        System.out.println(sol.solution(25,30));
 
     }
 
