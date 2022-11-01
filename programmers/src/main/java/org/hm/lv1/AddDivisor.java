@@ -19,17 +19,25 @@ public class AddDivisor {
         //left 부터 right까지 돌아야하는 반복문
         //약수 찾는 반복분
         //약수의 개수에 따라 더할지 뺄지
+//        for(int i = left; i <= right; i++){
+//            flag = 0;
+//            for(int j=1; j <=i; j++){
+//                if(i%j==0){
+//                    flag +=1;
+//                }
+//            }
+//            if(flag%2==0){
+//                answer +=i;
+//            }else{
+//                answer -=i;
+//            }
+//        }
+
         for(int i = left; i <= right; i++){
-            flag = 0;
-            for(int j=1; j <=i; j++){
-                if(i%j==0){
-                    flag +=1;
-                }
-            }
-            if(flag%2==0){
-                answer +=i;
+            if(i % Math.sqrt(i) == 0){
+                answer -= i;
             }else{
-                answer -=i;
+                answer += i;
             }
         }
 
