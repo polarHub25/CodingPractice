@@ -9,8 +9,8 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args)
     {
-        AddDivisor sol = new AddDivisor();
-        System.out.println(sol.solution(25,30));
+        DeficientMoney sol = new DeficientMoney();
+        sol.solution(3,20,4);
 
     }
 
