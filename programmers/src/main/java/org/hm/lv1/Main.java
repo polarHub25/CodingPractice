@@ -9,8 +9,9 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args)
     {
-        DeficientMoney sol = new DeficientMoney();
-        sol.solution(3,20,4);
+        int[] arr = {1,1,3,3,0,1,1};
+        DistinctNum sol = new DistinctNum();
+        sol.solution(arr);
 
     }
 
