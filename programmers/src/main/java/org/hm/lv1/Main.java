@@ -9,9 +9,14 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args)
     {
-        int[] arr = {1,1,3,3,0,1,1};
-        DistinctNum sol = new DistinctNum();
-        sol.solution(arr);
+        MakeChar sol = new MakeChar();
+        String answer = sol.solution(" apPle try");  //asdf asdf asdf a a a a
+        if(answer == "TrY HeLlO WoRlD"){
+            System.out.println("Ok");
+        }
+        else{
+            System.out.println("====="+answer);
+        }
 
     }
 
