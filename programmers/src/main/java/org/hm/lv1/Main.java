@@ -9,14 +9,8 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args)
     {
-        MakeChar sol = new MakeChar();
-        String answer = sol.solution(" apPle try");  //asdf asdf asdf a a a a
-        if(answer == "TrY HeLlO WoRlD"){
-            System.out.println("Ok");
-        }
-        else{
-            System.out.println("====="+answer);
-        }
+        TernaryReverse sol = new TernaryReverse();
+        sol.solution(45);
 
     }
 
