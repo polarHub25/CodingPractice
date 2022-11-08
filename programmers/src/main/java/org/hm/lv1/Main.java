@@ -9,8 +9,9 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args)
     {
-        TernaryReverse sol = new TernaryReverse();
-        sol.solution(45);
+        int[] param = {1,3,2,5,4};
+        Budget sol = new Budget();
+        sol.solution(param, 9);
 
     }
 
