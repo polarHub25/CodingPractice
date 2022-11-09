@@ -31,9 +31,7 @@ Here are some ideas to get you started:
 
 
 ####  ⚡ Put In My Head
-* 오름차순 / 내림차순
-
-
+[ 오름차순 / 내림차순 ]
 1. 배열 오름차순
 ```java
   int[] param = {1,3,2,5,4};
@@ -44,7 +42,19 @@ Here are some ideas to get you started:
   Integer[] param2 = {1,3,2,5,4};
   Arrays.sort(param2 , Collections.reverseOrder());
 ```
-3. int와 Integer 차이점?
+[ int와 Integer 차이점 ]
+1. int : 변수의 타입(data type)
+    - 값을 저장할 수 있는 메모리 상의 공간
+    - 산술 연산 가능 / null 초기화 불가
+2. Integer : int의 레퍼 클래스 (Wrapper class : 기본형을 객체로 다루기 위해 사용하는 클래스)
+    - 기본형 값이 아닌 객체로 저장해야할 때 
+    - 객체간 비교가 필요할 때 
+    - unboxing(Integer->int) 하지 않으면 산술 연산 불가능 / null 값 처리 가능
 
-
-
+[ charAt() ] 
+  - String 문자열 중 한 글자 선택해서 char 타입으로 변환해주는 함수
+```java
+String s = "ABCDEF";
+char flag = s.charAt(0);
+System.out.println(flag); // A 출력
+```
