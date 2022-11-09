@@ -9,9 +9,13 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args)
     {
-        int[] param = {1,3,2,5,4};
-        Budget sol = new Budget();
-        sol.solution(param, 9);
+        CaesarCipher sol = new CaesarCipher();
+        String answer = sol.solution("AB" , 1);
+        if(answer.equals("BC")){
+            System.out.print("PASS::"+answer);
+        }else{
+            System.out.print("FAIL::"+answer);
+        }
 
     }
 
