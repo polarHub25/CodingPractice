@@ -9,13 +9,17 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args)
     {
-        CaesarCipher sol = new CaesarCipher();
-        String answer = sol.solution("AB" , 1);
-        if(answer.equals("BC")){
-            System.out.print("PASS::"+answer);
-        }else{
-            System.out.print("FAIL::"+answer);
+        int[] arr1 = {9, 20, 28, 18, 11};
+        int[] arr2 = {30, 1, 21, 17, 28};
+
+        SecretMap sol = new SecretMap();
+        String[] answer = sol.solution(5, arr1, arr2);
+
+        for(int i=0; i< answer.length; i++){
+            System.out.print(answer[i]);
         }
+
+
 
     }
 
