@@ -9,17 +9,15 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args)
     {
-        int[] arr1 = {9, 20, 28, 18, 11};
-        int[] arr2 = {30, 1, 21, 17, 28};
+        int[][] param = {{60,50},{30,70},{60,30},{80,40}};
+        MinRectangle sol = new MinRectangle();
+        int answer = sol.solution(param);
 
-        SecretMap sol = new SecretMap();
-        String[] answer = sol.solution(5, arr1, arr2);
-
-        for(int i=0; i< answer.length; i++){
-            System.out.print(answer[i]);
+        if(answer==4000){
+            System.out.println("pass");
+        }else{
+            System.out.println("fail========="+answer);
         }
-
-
 
     }
 
