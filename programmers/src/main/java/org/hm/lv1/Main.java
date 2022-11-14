@@ -9,15 +9,13 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args)
     {
-        int[][] param = {{60,50},{30,70},{60,30},{80,40}};
-        MinRectangle sol = new MinRectangle();
-        int answer = sol.solution(param);
+        String[] param = {"sun", "bed", "car"};
+        StringSort sol = new StringSort();
+        String[] answer = sol.solution(param , 1);
 
-        if(answer==4000){
-            System.out.println("pass");
-        }else{
-            System.out.println("fail========="+answer);
-        }
+       for(int i = 0; i < answer.length; i++){
+           System.out.print("======="+answer[i]);
+       }
 
     }
 
