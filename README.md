@@ -58,3 +58,17 @@ String s = "ABCDEF";
 char flag = s.charAt(0);
 System.out.println(flag); // A 출력
 ```
+[ char / String ]
+1. char 초기화 방법
+```java 
+char flag = ' ';(0)
+char flag = " "; (x)
+char flag = null (x)
+```
+2. char -> String 변환 방법
+```java
+char flag = 'c';
+String str = String.valueOf(flag);
+```
+
+
