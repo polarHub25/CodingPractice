@@ -31,7 +31,7 @@ Here are some ideas to get you started:
 
 
 ####  ⚡ Put In My Head
-[ 오름차순 / 내림차순 ]
+[ 배열 ]
 1. 배열 오름차순
 ```java
   int[] param = {1,3,2,5,4};
@@ -41,6 +41,13 @@ Here are some ideas to get you started:
 ```java
   Integer[] param2 = {1,3,2,5,4};
   Arrays.sort(param2 , Collections.reverseOrder());
+```
+3. copyOfRange : 범위만큼 값 복사
+- 프로그래머스 문제를 풀다가 배열에서 특정범위만큼 값을 추출해야해서 for문으로 돌리고 난 후 다른사람 풀이를 보니 copyOfRange 이런 메소드가 존재했다.. 
+```java
+int[] array = {1, 5, 2, 6, 3, 7, 4};
+int[] result = Arrays.copyOfRange(array, 2, 6); //copyOfRange(원본배열 , 복사할 시작인덱스, 복사할 끝인덱스)
+// 결과 : result = {2,6,3,7}
 ```
 [ int와 Integer 차이점 ]
 1. int : 변수의 타입(data type)
