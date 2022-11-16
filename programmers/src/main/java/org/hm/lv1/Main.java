@@ -9,16 +9,15 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args)
     {
-        int[] array = {1, 5, 2, 6, 3, 7, 4};
-        int[][] commands = {{2, 5, 3},{4, 4, 1},{1, 7, 3}};
+        NumString sol = new NumString();
+        int answer = sol.solution("one4seveneight");
 
-        KNumber sol = new KNumber();
-        int[] answer = sol.solution(array , commands);
-
-       for(int i = 0; i < answer.length; i++){
-           System.out.print("======="+answer[i]);
-       }
-
+        if(answer==1478){
+            System.out.println("pass");
+        }
+        else{
+            System.out.println("fail=="+ answer);
+        }
     }
 
 
