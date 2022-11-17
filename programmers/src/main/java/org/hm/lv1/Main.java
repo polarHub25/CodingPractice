@@ -9,10 +9,11 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args)
     {
-        NumString sol = new NumString();
-        int answer = sol.solution("one4seveneight");
+        int[] param = {-3, -2, -1, 0, 1, 2, 3};
+        TrioSolution sol = new TrioSolution();
+        int answer = sol.solution(param);
 
-        if(answer==1478){
+        if(answer==5){
             System.out.println("pass");
         }
         else{
