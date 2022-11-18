@@ -9,11 +9,12 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args)
     {
-        int[] param = {-3, -2, -1, 0, 1, 2, 3};
-        TrioSolution sol = new TrioSolution();
-        int answer = sol.solution(param);
 
-        if(answer==5){
+        CalDate sol = new CalDate();
+        String answer = sol.solution(5,24);
+
+
+        if(answer=="TUES"){
             System.out.println("pass");
         }
         else{
