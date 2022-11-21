@@ -10,11 +10,14 @@ public class Main {
     public static void main(String[] args)
     {
 
-        CalDate sol = new CalDate();
-        String answer = sol.solution(5,24);
+        PoketSol sol = new PoketSol();
+
+        int[] param = {3,1,2,3};
+
+        int answer = sol.solution(param);
 
 
-        if(answer=="TUES"){
+        if(answer==2){
             System.out.println("pass");
         }
         else{
