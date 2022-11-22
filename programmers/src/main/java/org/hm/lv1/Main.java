@@ -10,18 +10,20 @@ public class Main {
     public static void main(String[] args)
     {
 
-        PoketSol sol = new PoketSol();
+        AnswerQuestion sol = new AnswerQuestion();
 
-        int[] param = {3,1,2,3};
+        int[] param = {1,2,3,4,5};
 
-        int answer = sol.solution(param);
+        int[] answer = sol.solution(param);
 
 
-        if(answer==2){
+        if(answer[0]==1){
             System.out.println("pass");
         }
         else{
-            System.out.println("fail=="+ answer);
+            for(int i =0; i < answer.length; i++) {
+                System.out.println("fail======" + answer[i]);
+            }
         }
     }
 
