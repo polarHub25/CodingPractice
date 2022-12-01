@@ -4,21 +4,16 @@ package org.hm.lv1;
 public class Main {
     public static void main(String[] args)
     {
-        SellBrush sol = new SellBrush();
-        String[] enroll = {"john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"};
-        String[] referral = {"-", "-", "mary", "edward", "mary", "mary", "jaimie", "edward"};
-        String[] seller ={"young", "john", "tod", "emily", "mary"};
-        int[] amount = {12, 4, 2, 5, 10};
+        int[] queue1 = {3, 2, 7, 2};
+        int[] queue2 = {4, 6, 5, 1};
+        MakeQueue sol = new MakeQueue();
+        int answer = sol.solution(queue1, queue2);
 
-        int[] answer = sol.solution(enroll, referral, seller, amount);
-
-       /* if(answer.length!=0) {
-            for (int i = 0; i < answer.length; i++) {
-                System.out.println("====" + answer[i]);
-            }
+        if(answer==2){
+            System.out.println("pass");
         }else{
-            System.out.println("Fail============");
-        }*/
+            System.out.println("fail========"+answer);
+        }
 
 
     }
