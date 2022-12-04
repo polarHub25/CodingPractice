@@ -4,15 +4,14 @@ package org.hm.lv1;
 public class Main {
     public static void main(String[] args)
     {
-        int[] queue1 = {3, 2, 7, 2};
-        int[] queue2 = {4, 6, 5, 1};
-        MakeQueue sol = new MakeQueue();
-        int answer = sol.solution(queue1, queue2);
+        int[][] queries = {{1,4},{2,2},{1,3},{1,6},{3,-1},{2,-1}};
+        StackBottom sol = new StackBottom();
+        int[] answer = sol.solution(3, queries);
 
-        if(answer==2){
+        if(answer[0]==4){
             System.out.println("pass");
         }else{
-            System.out.println("fail========"+answer);
+            System.out.println("fail========"+answer[0]);
         }
 
 
