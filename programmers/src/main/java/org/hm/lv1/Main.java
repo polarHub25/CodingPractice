@@ -4,15 +4,14 @@ package org.hm.lv1;
 public class Main {
     public static void main(String[] args)
     {
-        String[] participant = {"leo", "kiki", "eden"};
-        String[] completion = {"eden", "kiki"};
-        UnfinishedPlayer sol = new UnfinishedPlayer();
-        String answer = sol.solution(participant,completion);
+        PhoneNumList sol = new PhoneNumList();
+        String[] phone_book = {"119", "97674223", "1195524421"};
+        boolean answer = sol.solution(phone_book);
 
-        if(answer=="leo"){
+        if(answer==false){
             System.out.println("pass");
         }else{
-            System.out.println("fail========"+answer);
+            System.out.println("fail==="+answer);
         }
 
 
