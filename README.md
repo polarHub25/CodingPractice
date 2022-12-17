@@ -77,5 +77,17 @@ char flag = null (x)
 char flag = 'c';
 String str = String.valueOf(flag);
 ```
+[ startsWith / endsWith ]
+  - 문자열이 특정 문자열로 시작하거나 끝나는지에 대해 체크하는 함수
+```java
+String[] phone_book = {"119", "97674223", "1195524421"};
+
+  for(int i = 0; i < phone_book.length-1; i++){
+    phone_book[i+1].startsWith(phone_book[i]); //배열에 앞 문자열로 시작되는 문자열이 뒤에 문자열에 존재하면 true 반환
+    phone_book[i+1].endsWith(phone_book[i]) //phone_book[i] 끝나는 문자열이 존재하면 true 반환
+
+  }
+```
+
 
 
