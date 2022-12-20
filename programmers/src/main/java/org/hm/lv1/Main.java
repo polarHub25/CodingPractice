@@ -4,11 +4,11 @@ package org.hm.lv1;
 public class Main {
     public static void main(String[] args)
     {
-        Camouflage sol = new Camouflage();
-        String[][] clothes = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
-        int answer = sol.solution(clothes);
+        FindDecimal sol = new FindDecimal();
+        String numbers = "011"; // 11 101
+        int answer = sol.solution(numbers);
 
-        if(answer==5){
+        if(answer==2){
             System.out.println("pass");
         }else{
             System.out.println("fail==="+answer);
