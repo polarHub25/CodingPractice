@@ -31,7 +31,8 @@ public class PartString {
                 answer++;
             }
         }
-
+        //int와 long의 범위가 이 문제에 포인트..
+        System.out.println(Integer.MAX_VALUE + ":::::::"+ Long.MAX_VALUE);
         //문자열 => 숫자로 바꿔서 크기 비교
         //p보다 작거나 같으면 카운트 증가
 
