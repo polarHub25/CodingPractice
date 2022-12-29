@@ -14,9 +14,10 @@ public class Main {
 //            System.out.println("fail==="+answer);
 //        }
 
-        PartString sol = new PartString();
-        int answer = sol.solution("3141592", "271");
-        if(answer==2){
+        TargetNum sol = new TargetNum();
+        int[] numbers = {1, 1, 1, 1, 1};
+        int answer = sol.solution(numbers, 3);
+        if(answer==5){
             System.out.println("pass");
         }else{
             System.out.println("fail==="+answer);
