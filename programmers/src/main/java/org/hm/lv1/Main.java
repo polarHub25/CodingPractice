@@ -14,13 +14,13 @@ public class Main {
 //            System.out.println("fail==="+answer);
 //        }
 
-        CloselyStr sol = new CloselyStr();
-        String s = "banana";
-        int[] answer = sol.solution(s);
-        if(answer[0]==-1){
+        GameMapDst sol = new GameMapDst();
+        int[][] maps = {{1,0,1,1,1},{1,0,1,0,1},{1,0,1,1,1},{1,1,1,0,1},{0,0,0,0,1}};
+        int answer = sol.solution(maps);
+        if(answer==11){
             System.out.println("pass");
         }else{
-            System.out.println("fail==="+answer[0]);
+            System.out.println("fail==="+answer);
         }
 
 
