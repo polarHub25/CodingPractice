@@ -89,5 +89,24 @@ String[] phone_book = {"119", "97674223", "1195524421"};
   }
 ```
 
+[ Stack ]
+1. pop() vs peek() 
+```java
+  Stack<Integer> st = new Stack();
+  for(int i = 1; i < 5; i++) {
+      // Pushes an item onto the top of this stack.
+      st.push(i);
+  }
+      //Looks at the object at the top of this stack without removing it from the stack.
+      // 스택에서 맨 위 개체 제거하지 않고 맨 위에 값 반환.
+      st.peek();
+      // Removes the object at the top of this stack and returns that object as the value of this function.
+      // 스택에서 맨 위 개체 반환 후 스택에서 개체 제거
+      st.pop();
+```
 
 
+
+
+[ 참고 ]
+- https://docs.oracle.com/javase/8/docs/api/
